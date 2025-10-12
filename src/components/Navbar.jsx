@@ -1,21 +1,13 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import bg from "../assets/bg.png";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+
 
 const Navbar = () => {
-  useGSAP(() => {
-    gsap.from("#navbar", {       
-      opacity: 0, 
-      duration: 1, 
-      delay:1,
-      y:-100
-    });
-  }, []);
+
 
   return (
-    <div id="navbar" className="h-15 w-screen  fixed top-0 z-50">
+    <div id="navbar" className="h-15 w-screen top-0 z-[9999]  backdrop-blur-sm absolute ">
       <div className="flex items-center justify-between mt-2 px-4">
      
         <div className="flex items-center gap-2 ml-14">
