@@ -62,7 +62,9 @@ const Categoery = () => {
                 ))}
             </div>
            <div className='h-40 w-full flex items-center justify-center'>    
-                <div className='h-10 w-38 border-1 flex justify-center items-center cursor-pointer & hover:bg-green-600 hover:text-white rounded-sm'><button className='border-none cursor-pointer'>View All Product</button></div>
+                <div className='h-10 w-38 border-1 flex justify-center items-center cursor-pointer & hover:bg-green-600 hover:text-white rounded-sm'>
+                    <button className='border-none cursor-pointer'>View All Product</button>
+                </div>
            </div>
         </div>
     )
