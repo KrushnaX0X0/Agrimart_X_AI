@@ -49,7 +49,7 @@ const Categoery = () => {
                                    <img src={item?.image} alt="" className='object-fill h-50px' />
                             </div>
                              <div>
-                                <h1 className='font-medium'>{item?.name}</h1>
+                                <h1 className='font-medium text-xl'>{item?.name}</h1>
                              </div>
                              <div>
                                 <p className='font-medium'>$ {item?.price} KG</p>
