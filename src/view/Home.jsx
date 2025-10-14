@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Categoery from '../components/Categoery';
+import Thired from '../components/Thired';
 
 const Home = () => {
 
@@ -25,6 +26,7 @@ const Home = () => {
 
   <Hero/>
   <Categoery/>
+  <Thired/>
 
   
   </>

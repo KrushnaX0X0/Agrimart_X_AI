@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="h-10">
             <img src={bg} className="h-full object-fill" />
           </div>
-          <h1 className="font-bold text-xl">Agrimart</h1>
+          <h1 className="font-bold text-xl font ">Agrimart</h1>
         </div>
 
   

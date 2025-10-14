@@ -10,5 +10,42 @@ overflow-x: hidden;
     background-color:   rgb(254, 255, 255);
 }
 
+@font-face {
+    font-family: TitleFont;
+    src: url("../src//font/InstrumentSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: font1;
+    src: url("../src//font/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: font2;
+    src: url("../src//font/ChettaVissto.ttf");
+}
+@font-face {
+    font-family: font3;
+    src: url("../src//font/VerveAlternate.ttf");
+}
+@font-face {
+    font-family: font4;
+    src: url("../src//font/Vocago.ttf");
+}
+.font{
+    font-family:TitleFont ;
+}
+.font1{
+    font-family:font1 ;
+}
+.font2{
+    font-family:font2 ;
+}
+.font3{
+    font-family:font3 ;
+}
+.font4{
+    font-family:font4 ;
+}
 
 
