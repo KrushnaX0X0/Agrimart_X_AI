@@ -20,7 +20,7 @@ const Home = () => {
   return (
   <>
 
-   <div id='navbar' className='z-[9999] relative'>
+   <div id='navbar' className='z-[9999]  fixed top-0'>
     <Navbar/>
    </div>
 

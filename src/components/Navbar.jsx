@@ -7,14 +7,14 @@ const Navbar = () => {
 
 
   return (
-    <div id="navbar" className="h-15 w-screen top-0 z-[9999]  backdrop-blur-sm absolute ">
+    <div id="navbar" className="h-15 w-screen  fixed top-0 z-[9999]  backdrop-blur-sm  ">
       <div className="flex items-center justify-between mt-2 px-4">
      
         <div className="flex items-center gap-2 ml-14">
           <div className="h-10">
             <img src={bg} className="h-full object-fill" />
           </div>
-          <h1 className="font-bold text-xl font ">Agrimart</h1>
+          <h1 className="font-bold text-xl font ">GreenChain</h1>
         </div>
 
   
