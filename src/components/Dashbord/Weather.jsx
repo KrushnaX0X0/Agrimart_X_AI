@@ -5,7 +5,7 @@ import { WiDaySunny, WiCloud, WiRain, WiSnow } from "react-icons/wi";
 
 const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
-  const city = "Mumbai";
+  const city = "morve";
   const API_KEY = import.meta.env.VITE_WEATHER_API_KEY || "1ba772ce109561d482871658bb494843";
   const [searchCity, setSearchCity] = useState("");
   // Fetch weather data

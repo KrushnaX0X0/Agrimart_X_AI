@@ -1,6 +1,5 @@
 import React from "react";
 import { FaHome, FaBoxOpen, FaPlusCircle, FaRobot, FaCloudSun, FaChartBar, FaCog, FaSignOutAlt } from "react-icons/fa";
-import bg from "../../assets/bg.png";
 const Sidebar = ({ setActiveSection }) => {
   const menuItems = [
     { label: "Dashboard", value: "overview", icon: <FaHome /> },
