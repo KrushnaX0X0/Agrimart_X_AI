@@ -14,18 +14,15 @@ const Sidebar = ({ setActiveSection }) => {
   ];
 
   return (
-    <div className="w-[18vw] h-screen bg-green-700 text-white flex flex-col p-6 gap-6 fixed left-0 top-0">
-   <div className="h-10 flex  items-center gap-4">
-    <img src={bg} className="h-full object-fill" />
-     <h1 className="font-bold text-xl font ">GreenChain</h1>
-    </div>
+    <div className="w-[18vw] h-screen bg-green-700 text-white flex flex-col justify-center p-6 gap-6 fixed left-0 top-0 ">
+  
            
-      <ul className="flex flex-col gap-4 text-lg">
+      <ul className="flex flex-col justify-center gap-4 text-lg">
         {menuItems.map((item) => (
           <li
             key={item.value}
             onClick={() => setActiveSection(item.value)}
-            className="hover:bg-green-600 p-3 rounded cursor-pointer flex items-center gap-3 shadow-md hover:shadow-xl transition-all duration-300"
+            className="hover:bg-green-600 p-3 rounded cursor-pointer flex items-center gap-3 shadow-black/50 shadow-2xl hover:shadow-xl transition-all duration-300"
           >
             <span className="text-xl text-yellow-400">{item.icon}</span>
             {item.label}
