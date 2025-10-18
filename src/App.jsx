@@ -5,6 +5,7 @@ import Loding from './components/Loding'
 import Shop from './view/Shop'
 import Login from './view/Login'
 import Signup from './view/Signup'
+import Dashboard from './view/Dashbord'
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
           <Route path='/shop' element={<Shop/>} />
           <Route path='/login' element={<Login/>} />
           <Route path='/signup' element={<Signup/>} />
+          <Route path='/dashbord' element={<Dashboard/>} />
 
         </Routes>
       )}
