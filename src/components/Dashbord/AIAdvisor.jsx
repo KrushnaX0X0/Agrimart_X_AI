@@ -59,7 +59,7 @@ const AIAdvisor = () => {
           type="file"
           accept="image/*"
           onChange={handleImageChange}
-          className="px-4 py-2 border rounded-lg"
+          className="px-4 py-2 border rounded-lg cursor-pointer"
         />
         {imageFile && (
           <img
@@ -71,7 +71,7 @@ const AIAdvisor = () => {
 
         <button
           onClick={handleSendToAI}
-          className="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition-all mt-2"
+          className="bg-green-600 text-white h-[6vh] w-[12vw] cursor-pointer px-2 py-2 rounded-lg hover:bg-green-700 transition-all mt-2"
         >
           {loading ? "Analyzing..." : "Analyze Crop"}
         </button>

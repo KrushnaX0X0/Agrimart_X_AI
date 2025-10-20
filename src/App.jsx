@@ -7,6 +7,7 @@ import Login from './view/Login'
 import Signup from './view/Signup'
 import Dashboard from './view/Dashbord'
 
+
 const App = () => {
 
     const [loding,setloding] = useState(true);
@@ -31,6 +32,7 @@ const App = () => {
           <Route path='/login' element={<Login/>} />
           <Route path='/signup' element={<Signup/>} />
           <Route path='/dashbord' element={<Dashboard/>} />
+          
 
         </Routes>
       )}

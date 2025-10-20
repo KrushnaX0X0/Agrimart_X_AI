@@ -4,7 +4,7 @@ import gsap from "gsap";
 
 const Loding = () => {
   useGSAP(() => {
-    // 🔹 Animate logo text appearance
+    
     gsap.fromTo(
       ".logo-font",
       { scale: 0.8, opacity: 0, y: 30 },
@@ -17,7 +17,7 @@ const Loding = () => {
       }
     );
 
-    // 🔹 Animate loader bar moving left to right repeatedly
+    
     gsap.to(".loader", {
       x: "150%",
       duration: 1.2,
@@ -27,7 +27,7 @@ const Loding = () => {
     });
   }, []);
 
-  // 🔹 Optional fade-out effect when loader ends (after 2.5s)
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       gsap.to(".loader-container", {

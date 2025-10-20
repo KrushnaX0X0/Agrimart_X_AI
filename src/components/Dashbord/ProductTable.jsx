@@ -6,6 +6,8 @@ const ProductTable = () => {
     ["Fresh Mangoes", "Fruits", "₹90/kg", "80", "Active"],
     ["Carrots", "Vegetables", "₹50/kg", "150", "Active"],
     ["Potatoes", "Vegetables", "₹40/kg", "200", "Active"],
+      ["Potatoes", "Vegetables", "₹40/kg", "200", "Active"],
+        ["Potatoes", "Vegetables", "₹40/kg", "200", "Active"],
   ];
 
   return (
