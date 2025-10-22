@@ -26,13 +26,13 @@ const Navbar = () => {
             <li>
               <Link to="/shop">Shop</Link>
             </li>
-            <li>
-              <Link to="/login">Login</Link>
-            </li> 
-             <li className="h-10 relative " >
+            <li className="h-10 relative " >
               <Link to="/login"><i className="ri-shopping-cart-2-line text-xl "></i></Link>
               <div className="bg-green-500 h-4 w-4 rounded-full flex justify-center items-center absolute top-[-6px] right-[-5px] text-[0.7em] ">1</div>
             </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li> 
             <li className="bg-green-600 h-8 w-20 flex justify-center items-center rounded-sm text-white">
               <Link to="/signup">Sign Up</Link>
             </li>
